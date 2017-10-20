@@ -142,7 +142,8 @@ html, body, .box {
         align-items: center; }
         .box .mains .rows .top h1 {
           flex: 1;
-          text-indent: 1em; }
+          text-indent: 1em;
+          font-size: 22px; }
         .box .mains .rows .top .timer {
           flex: 1;
           text-align: right;
@@ -188,7 +189,8 @@ html, body, .box {
         align-items: center; }
         .box .mains .action .top h1 {
           flex: 1;
-          text-indent: 1em; }
+          text-indent: 1em;
+          font-size: 22px; }
         .box .mains .action .top span {
           flex: 1;
           text-align: right;
@@ -233,7 +235,8 @@ html, body, .box {
         align-items: center; }
         .box .mains .like .top h1 {
           flex: 1;
-          text-indent: 1em; }
+          text-indent: 1em;
+          font-size: 22px; }
         .box .mains .like .top span {
           flex: 1;
           text-align: right;
