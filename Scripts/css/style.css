@@ -286,5 +286,7 @@ html, body, .box {
         .box .footer ul li b {
           font-size: 16px;
           font-weight: normal; }
+      .box .footer ul .on {
+        color: coral; }
 
 /*# sourceMappingURL=style.css.map */

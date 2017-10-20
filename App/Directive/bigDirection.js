@@ -5,6 +5,9 @@ app.directive('big', function () {
         link: function (scope, ele, attr) {
             $('.hh').on('click', 'b', function () {
                 $(this).find('a').addClass('active').parent().siblings().find('a').removeClass('active')
+            });
+            $('ul li').on('click', function(){
+                $(this).addClass('on').siblings().removeClass('on')
             })
         }
     }
