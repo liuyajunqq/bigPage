@@ -1,0 +1,290 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  font-family: "幼圆";
+  overflow: hidden;
+  background: #dedede; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+  .box .header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #fff; }
+    .box .header span {
+      flex: 1;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold; }
+    .box .header h1 {
+      flex: 5;
+      height: 100%;
+      display: flex;
+      text-align: center;
+      line-height: 50px; }
+      .box .header h1 strong {
+        flex: 1; }
+      .box .header h1 b {
+        flex: 1;
+        height: 100%;
+        font-size: 20px;
+        text-align: center; }
+        .box .header h1 b a {
+          display: inline-block;
+          text-decoration: none;
+          padding: 0px 3px;
+          height: 100%;
+          border-bottom: 2px solid #fff;
+          font-style: normal; }
+        .box .header h1 b .active {
+          color: coral;
+          border-bottom: 2px solid coral; }
+  .box .mains {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll; }
+    .box .mains .lunbo {
+      width: 100%;
+      height: 100px;
+      background: #fff; }
+      .box .mains .lunbo .swiper-container {
+        width: 100%; }
+        .box .mains .lunbo .swiper-container .swiper-slide {
+          width: 100%; }
+          .box .mains .lunbo .swiper-container .swiper-slide img {
+            width: 100%;
+            height: auto; }
+      .box .mains .lunbo .swiper-pagination span {
+        width: 15px;
+        height: 5px;
+        background: #fff;
+        border-radius: 5px; }
+    .box .mains .parlist {
+      width: 100%;
+      padding: 15px;
+      background: #fff; }
+      .box .mains .parlist .list {
+        width: 100%;
+        display: flex; }
+        .box .mains .parlist .list li {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          list-style: none; }
+          .box .mains .parlist .list li span {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 15px;
+            text-align: center;
+            line-height: 50px; }
+            .box .mains .parlist .list li span i {
+              color: #ffffff;
+              font-size: 26px; }
+          .box .mains .parlist .list li b {
+            padding: 10px 0px 0px 0px;
+            font-size: 16px;
+            font-weight: normal; }
+    .box .mains .logo {
+      width: 100%;
+      padding: 2px;
+      background: #ECF1F4; }
+      .box .mains .logo img {
+        width: 100%;
+        height: auto; }
+    .box .mains .cars {
+      width: 100%;
+      background: #fff; }
+      .box .mains .cars h1 {
+        width: 100%;
+        padding: 15px;
+        font-size: 22px;
+        text-indent: 0.5em; }
+      .box .mains .cars .item {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        .box .mains .cars .item dl {
+          flex-basis: 24.9%;
+          padding: 5px 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-left: 1px solid #dedede;
+          border-bottom: 1px solid #dedede; }
+          .box .mains .cars .item dl dt img {
+            width: 90%;
+            height: auto; }
+    .box .mains .rows {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 10px;
+      background: #ffffff; }
+      .box .mains .rows .top {
+        width: 100%;
+        padding: 15px 0px;
+        display: flex;
+        align-items: center; }
+        .box .mains .rows .top h1 {
+          flex: 1;
+          text-indent: 1em; }
+        .box .mains .rows .top .timer {
+          flex: 1;
+          text-align: right;
+          margin-right: 3px; }
+          .box .mains .rows .top .timer span {
+            padding: 3px;
+            background: #080808;
+            color: #ffffff;
+            font-size: 20px; }
+      .box .mains .rows .bott {
+        width: 200%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px; }
+        .box .mains .rows .bott dl {
+          width: 30%;
+          text-align: center; }
+          .box .mains .rows .bott dl dt img {
+            width: 80%;
+            height: auto; }
+          .box .mains .rows .bott dl dd {
+            text-align: left;
+            text-indent: 1em; }
+            .box .mains .rows .bott dl dd h2 {
+              font-size: 16px;
+              font-weight: normal;
+              padding: 3px 0px; }
+            .box .mains .rows .bott dl dd b {
+              font-size: 16px;
+              color: red;
+              font-weight: normal;
+              margin-left: 14px; }
+    .box .mains .action {
+      width: 100%;
+      margin-top: 10px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column; }
+      .box .mains .action .top {
+        width: 100%;
+        display: flex;
+        padding: 15px 0px;
+        align-items: center; }
+        .box .mains .action .top h1 {
+          flex: 1;
+          text-indent: 1em; }
+        .box .mains .action .top span {
+          flex: 1;
+          text-align: right;
+          margin-right: 4px; }
+      .box .mains .action .bott {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        .box .mains .action .bott dl {
+          flex-basis: 33.3%;
+          padding: 10px 3px;
+          display: flex;
+          flex-direction: column;
+          border-top: 1px solid #dedede;
+          border-right: 1px solid #dedede; }
+          .box .mains .action .bott dl dt {
+            text-align: center; }
+            .box .mains .action .bott dl dt img {
+              width: 90%;
+              height: auto; }
+          .box .mains .action .bott dl dd {
+            padding-left: 5px; }
+            .box .mains .action .bott dl dd h2 {
+              font-size: 19px;
+              color: #666;
+              padding: 3px 0px; }
+            .box .mains .action .bott dl dd b {
+              color: red;
+              font-size: 14px;
+              padding: 5px 0px;
+              font-weight: normal; }
+    .box .mains .like {
+      width: 100%;
+      margin-top: 10px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column; }
+      .box .mains .like .top {
+        width: 100%;
+        display: flex;
+        padding: 15px 0px;
+        align-items: center; }
+        .box .mains .like .top h1 {
+          flex: 1;
+          text-indent: 1em; }
+        .box .mains .like .top span {
+          flex: 1;
+          text-align: right;
+          margin-right: 4px; }
+      .box .mains .like .bott {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        .box .mains .like .bott dl {
+          flex-basis: 50%;
+          border-top: 1px solid #dedede;
+          border-right: 1px solid #dedede;
+          padding: 10px 5px; }
+          .box .mains .like .bott dl dt {
+            text-align: center; }
+            .box .mains .like .bott dl dt img {
+              width: 90%;
+              height: auto; }
+          .box .mains .like .bott dl dd h2 {
+            font-size: 18px;
+            padding: 10px 0px; }
+          .box .mains .like .bott dl dd p {
+            font-size: 14px;
+            color: #666666;
+            padding: 5px 0px; }
+          .box .mains .like .bott dl dd span {
+            padding: 5px 0px; }
+            .box .mains .like .bott dl dd span b {
+              color: red;
+              font-size: 17px; }
+            .box .mains .like .bott dl dd span i {
+              font-style: normal;
+              text-decoration: line-through;
+              font-size: 14px;
+              margin-left: 5px; }
+  .box .footer {
+    width: 100%;
+    padding: 6px 0px;
+    background: #fbfbfb; }
+    .box .footer ul {
+      width: 100%;
+      display: flex; }
+      .box .footer ul li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .box .footer ul li span {
+          font-size: 22px; }
+        .box .footer ul li b {
+          font-size: 16px;
+          font-weight: normal; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+<div class="like">
+    <div class="top">
+        <h1>猜你喜欢</h1>
+        <span class="more" ng-click="fn()">更多 ></span>
+    </div>
+    <div class="bott">
+        <dl ng-repeat="user in user1">
+            <dt><img ng-src="{{user.imgs}}" alt=""></dt>
+            <dd>
+                <h2>{{user.name}}</h2>
+                <p>{{user.con}}</p>
+                <span>
+                    <b>{{user.price}}</b>
+                    <i>{{user.remove}}</i>
+                </span>
+            </dd>
+        </dl>
+    </div>
+</div>
